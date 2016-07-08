@@ -6,9 +6,9 @@ reading_time:       true
 words_per_minute:   200
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                'http://127.0.0.1:40'
-logo:               'http://127.0.0.1:40/assets/img/logo.png'
-background:         'http://127.0.0.1:40/assets/img/placeholder-big.jpg'
+url:                'http://127.0.0.1:4000'
+logo:               'http://127.0.0.1:4000/assets/img/logo.png'
+background:         'http://127.0.0.1:4000/assets/img/placeholder-big.jpg'
 
 # Jekyll
 permalink:          /:title/
@@ -38,21 +38,21 @@ disqus_shortname:   username
   #ad-slot:
 #bing-verify:
 email:              manikanta.reddy.d@outlook.com
-twitter:            username
-facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:          username
+twitter:            ManikantaReddyD
+facebook:           Manikanta.D.Reddy
+github:             ManikantaReddyD
+stackoverflow:     6345500/manikanta-reddy-d
+linkedin:          ManikantaDReddy
 #xing:              username
 #instagram:          username
-lastfm:            username
+lastfm:            ManikantaReddy
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
 #steam:              username
 #dribbble:          username
-youtube:           username
-soundcloud:        username
+youtube:           UCnwMLnk0Z61kFt3igpCkrvQ
+soundcloud:        ManikantaReddyD
 #weibo:             username
 #flickr:            username
 #codepen:           username
