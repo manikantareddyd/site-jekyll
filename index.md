@@ -67,3 +67,24 @@ Hello everybody. This is about Manikanta, an Amateur Astronomer and an easy goin
         <p>Besides all of that, I like to cycle and walk randomly and bump into people. I also trek mountains sometimes and like to go places </p>
     </div>
 </div>
+<div class="row">
+<div class="col-md-6">
+	<div class="image fit captioned">
+			<img src="assets/img/placeholder-big.jpg" alt="" />
+			<div class="caption">
+                <h5>Post Title</h5>
+                <p>Besides all of that, I like to cycle and walk randomly and bump into people. I also trek mountains sometimes and like to go places </p>
+            </div>
+	</div>
+</div>
+<div class="col-md-6">
+	<div class="image fit captioned">
+			<img src="assets/img/placeholder-big-b.jpg" alt="" />
+			<div class="caption">
+                <h5>Post Title</h5>
+                <p>Besides all of that, I like to cycle and walk randomly and bump into people. I also trek mountains sometimes and like to go places </p>
+            </div>
+	</div>
+</div>
+
+</div>
