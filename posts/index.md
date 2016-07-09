@@ -8,16 +8,15 @@ comments: false
     {% for post in site.posts %}
         {% if post.project == null %}
             {% cycle 'add row' : '<div class="row">', nil %}
-                <div class="col-md-6">
-                    
-                        <div class="image">
-                            <img src="{{ site.url }}/assets/img/placeholder-big.jpg" alt="" />
-                            <div class="caption">
-                                <h3>{{ post.title }}</h3>
-                                <p>{{ post.excerpt }}</p>
-                                <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
-                            </div>
-                        </div> 
+                <div class="col-md-6  animated fadeIn">
+                    <div class="image">
+                        <img src="{{ site.url }}/assets/img/placeholder-big.jpg" alt="" />
+                        <div class="caption">
+                            <h3>{{ post.title }}</h3>
+                            <p>{{ post.excerpt }}</p>
+                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                        </div>
+                    </div> 
                 </div>
             {% cycle 'end row' : nil, '</div>' %}
         {% endif %}

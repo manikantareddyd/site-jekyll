@@ -67,24 +67,28 @@ Hello everybody. This is about Manikanta, an Amateur Astronomer and an easy goin
         <p>Besides all of that, I like to cycle and walk randomly and bump into people. I also trek mountains sometimes and like to go places </p>
     </div>
 </div>
-<div class="row">
-<div class="col-md-6">
-	<div class="image fit captioned">
-			<img src="assets/img/placeholder-big.jpg" alt="" />
-			<div class="caption">
-                <h5>Post Title</h5>
-                <p>Besides all of that, I like to cycle and walk randomly and bump into people. I also trek mountains sometimes and like to go places </p>
-            </div>
-	</div>
-</div>
-<div class="col-md-6">
-	<div class="image fit captioned">
-			<img src="assets/img/placeholder-big-b.jpg" alt="" />
-			<div class="caption">
-                <h5>Post Title</h5>
-                <p>Besides all of that, I like to cycle and walk randomly and bump into people. I also trek mountains sometimes and like to go places </p>
-            </div>
-	</div>
-</div>
 
+
+<hr class="hr-line">
+
+<center>
+	<h2>Recent Posts</h2>
+</center>
+
+<div class="post-list">
+    {% for post in site.posts offset: 0 limit: 4 %}
+        {% cycle 'add row' : '<div class="row">', nil %}
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{ site.url }}/assets/img/placeholder-big.jpg" alt="" />
+                    <div class="caption">
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.excerpt }}</p>
+                        <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                    </div>
+                </div> 
+            </div>
+        {% cycle 'end row' : nil, '</div>' %}
+    {% endfor %}
+    {% cycle 'end row' : nil, '</div>' %}
 </div>
