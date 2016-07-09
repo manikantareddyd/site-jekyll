@@ -5,21 +5,22 @@ excerpt: "A List of Posts"
 comments: false
 ---
 <div class="post-list">
-    {% for post in site.posts %} 
+    {% for post in site.posts %}
         {% if post.project == null %}
-            
-        <div class="col-md-6 wow fadeIn" data-wow-duration="1.5s">
-            <div class="image left fit captioned">
-                    <img src="{{ site.url }}/assets/img/placeholder-big-b.jpg" alt="" />
-                    <div class="caption">
-                        <h5>{{ post.title }}</h5>
-                        <p>{{ post.excerpt }}</p>
-                        <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
-                    </div>
-            </div>
-        </div>
-           
-    </ul>
+            {% cycle 'add row' : '<div class="row">', nil %}
+                <div class="col-md-6">
+                    
+                        <div class="image">
+                            <img src="{{ site.url }}/assets/img/placeholder-big.jpg" alt="" />
+                            <div class="caption">
+                                <h3>{{ post.title }}</h3>
+                                <p>{{ post.excerpt }}</p>
+                                <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                            </div>
+                        </div> 
+                </div>
+            {% cycle 'end row' : nil, '</div>' %}
         {% endif %}
     {% endfor %}
+    {% cycle 'end row' : nil, '</div>' %}
 </div>
