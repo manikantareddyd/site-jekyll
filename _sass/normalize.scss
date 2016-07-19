@@ -117,9 +117,13 @@ sup {
 /* Embedded content
    ========================================================================== */
 
+
 img {
+	opacity: 1;
+	transition: opacity 0.3s;
   border-style: none;
 }
+
 
 svg:not(:root) {
   overflow: hidden;
