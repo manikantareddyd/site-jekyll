@@ -4,6 +4,7 @@ title: All Posts
 excerpt: "A List of Posts"
 comments: false
 ---
+Here is a list of all the posts I've ever made...
 <div class="post-list">
     {% for post in site.posts %}
         {% if post.project == null %}

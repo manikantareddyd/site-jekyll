@@ -2,6 +2,7 @@
 layout: index
 title: Home
 comments: false
+description: "Hello everybody. This is about Manikanta, an Amateur Astronomer and an easy going comp. science undergrad at Indian Institute of Technology, Kanpur. He isn't much but, yeah, here you go"
 ---
 
 <center>
