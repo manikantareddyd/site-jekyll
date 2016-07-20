@@ -1,14 +1,14 @@
 # Site
-title:
-bio:                'Manikanta Reddy D'
+title:              'Manikanta Reddy D'
+bio:                "I try to do a bit of everything so that I can do anything"
 description:        ""
 reading_time:       true
 words_per_minute:   200
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                'http://127.0.0.1:4000'
-logo:               'http://127.0.0.1:4000/assets/img/logo.png'
-background:         'http://127.0.0.1:4000/assets/img/placeholder-big.jpg'
+url:                'https://ManikantaReddyD.github.io'
+logo:               'https://ManikantaReddyD.github.io/assets/img/logo.png'
+background:         'https://ManikantaReddyD.github.io/assets/img/placeholder-big.jpg'
 
 # Jekyll
 permalink:          /:title/
