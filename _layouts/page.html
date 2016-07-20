@@ -24,7 +24,12 @@ layout: compress
                 {{ content }}
             </div>
         </div>
-        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
+        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#comments_section -->{% endif %}
+        {% if page.comments %}
+            <section id="fb_comments" class="animated fadeInUp">
+                <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-colorscheme="dark" data-num-posts="4" data-width="706"></div>
+            </section>
+        {% endif %}
     </header>
     {% include scripts.html %}
     {% if site.mathjax == true %}
@@ -32,4 +37,7 @@ layout: compress
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
 </body>
+    {% if page.comments != false %}
+        {% include fb_comments.html %}
+    {% endif %}
 </html>
