@@ -21,15 +21,17 @@ Hello everybody. This is about Manikanta, an Amateur Astronomer and an easy goin
         <div class="centered">
             <img src="assets/img/interests/ml.png">
         </div>
-    <h3 class="centered">Machine Learning</h3>
-        <p>This is my primary field of interest. I have this weird fetish for finding patterns in any data, must be my OCD! I'm currently working on course project regarding the analysis of surveliience footage.</p>
+    <h3 class="centered"><b>Machine Learning</b></h3>
+    <h3 class="centered"><b>& Data Analysis</b></h3>
+        <p>My favorite <i>idle time</i> activity. What's better than to find patterns in everything? The feeling you get when your machine learns something better than you do, is crazy! I was recently working on numerous short projects/ assignments, look them up!</p>
     </div>
     <div class="col-md-6">
         <div class="centered">
             <img src="assets/img/interests/eye.png">
         </div>
-        <h3 class="centered">Computer Vision</h3>
-        <p>Image processing and computer vision are interesting topics! I worked on gesture recognition with simple background subtraction techniques.</p>
+        <h3 class="centered"><b>Computer Vision</b></h3>
+        <h3 class="centered"><b>& Image Processing</b></h3>
+        <p>Image processing and computer vision are interesting topics! Although it takes time, some algorithms are way over the place. I'm currently into trying segmenting nerves in ultra sound images.</p>
     </div>
 </div>
 
@@ -38,15 +40,15 @@ Hello everybody. This is about Manikanta, an Amateur Astronomer and an easy goin
         <div class="centered">
             <img src="assets/img/interests/universe.png">
         </div>
-        <h3 class="centered">Astro Physics</h3>
-        <p>I like the dark skies a lot. I spend many nights, just lying there and watch them stars twinkle. I also like cosmology, stellar tatistics and studying the large-scale structure of the universe. Did I mention I was in the Astronomy OCSC Camp - 2013?</p>
+        <h3 class="centered"><b>Astro Physics</b></h3>
+        <p>I like the dark skies a lot. I spend many nights, just lying there and watch them stars twinkle. I also like cosmology, stellar statistics and studying the large-scale structure of the universe. I guess attending an astronomy-ocsc does have its perks!</p>
     </div>
     <div class="col-md-6">
         <div class="centered">
             <img src="assets/img/interests/music.png">
         </div>
-        <h3 class="centered">Music</h3>
-        <p>I have got a really wanky taste in music, mostly electronic pop. Music washes away from the soul the dust of everyday life. What's better than to plug in my earphones and dream with volume on full. Stalk on my last.fm to see for yourselves.</p>
+        <h3 class="centered"><b>Music</b></h3>
+        <p>I have got a really wanky taste in music, mostly electronic pop. I find it really relaxing to plug in my earphones and dream with volume on full. Stalk on my <a href="http://last.fm/ManikantaReddy">last.fm</a> to see if we match.</p>
     </div>
 </div>
 
