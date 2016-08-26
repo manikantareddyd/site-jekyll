@@ -12,6 +12,14 @@
 	}
 }
 
+p {
+	@include font-size(18);
+}
+
+h3 {
+	@include font-size(22);
+}
+
 // titles
 .title {
 	text-align: center;
