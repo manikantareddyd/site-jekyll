@@ -8,7 +8,7 @@ description: "Hello everybody. This is about Manikanta, an Amateur Astronomer an
 <center>
 	<h2>Hi!</h2>
 </center>
-Hello everybody. This is about Manikanta, an Amateur Astronomer and an easy going comp. science undergrad at Indian Institute of Technology, Kanpur. He isn't much but, yeah, here you go
+Hello everybody. This is about Manikanta, an Amateur Astronomer and an easy going comp. science undergrad at Indian Institute of Technology, Kanpur. I heard that you wanted to know me, so here you go.
 
 <hr class="hr-line">
 
@@ -55,7 +55,7 @@ Hello everybody. This is about Manikanta, an Amateur Astronomer and an easy goin
         <div class="centered">
             <img src="assets/img/interests/food.png">
         </div>
-        <H3 class="centered">Food</H3>
+        <H3 class="centered"><b>Food</b></H3>
         <p>
             I can cook too. When I've nothing else to do, you can always find me in the kitchen cooking delicous food and eating it. If I ever invite you over, trust me, it'll be fireworks in your mouth.
         </p>
@@ -64,7 +64,7 @@ Hello everybody. This is about Manikanta, an Amateur Astronomer and an easy goin
         <div class="centered">
             <img src="assets/img/interests/earth.png">
         </div>
-        <h3 class="centered">Everthing Else</h3>
+        <h3 class="centered"><b>Everthing Else</b></h3>
         <p>Besides all of that, I like to cycle and walk randomly and bump into people. I also trek mountains sometimes and like to go places </p>
     </div>
 </div>
